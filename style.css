@@ -16,6 +16,20 @@ header {
     background-size: cover;
 }
 
+#mainTitulo {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 100%;
+    margin-left: 25px;
+}
+
+header h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
 main {
     display: flex;
     width: 1200px;
