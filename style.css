@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    height: 256px;
+    background-color: red;
+}
+
+main {
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#One {
+    flex-grow: 3;
+    background-color: bisque;
+}
+
+#titulo {
+    width: 100%;
+    background-color: rgb(235, 116, 116);
+}
+
+#wrapperFlex {
+    display: flex;
+    width: 100%;
+}
+
+#sectionOne {
+    flex-grow: 1;
+    width: 200px;
+
+}
+
+#grandesTextos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(161, 8, 8);
+}
+
+#textoOne {
+    width: 100%;
+}
+
+#textoTwo {
+    width: 100%;
+}
+
+#sectionTwo {
+    width: 400px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#firstRow {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+#firstRow .divisaoImg1 {
+    width: 50%;
+}
+
+
+#firstRow .divisaoImg2 {
+    width: 70%;
+}
+
+#firstRow .divisaoImg1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#firstRow .divisaoImg2 img {
+    width: 100%;
+    height: 100%;
+}
+
+#secondRow {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#secondRow img {
+    width: 100%;
+}
+
+#thirdRow {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#thirdRow img {
+    width: 100%;
+}
+
+#fourthRow {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#columImage {
+    flex-grow: 2;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.divisaoImgF1 {
+    width: auto;
+}
+
+.divisaoImgF1 img {
+    width: 100%;
+}
+
+
+.divisaoImgF2 {
+    width: auto;
+}
+
+.divisaoImgF2 img {
+    width: 100%;
+}
+
+
+#columLorem {
+    flex-grow: 3;
+    width: 100px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Two {
+    flex-grow: 1;
+    background-color: brown;
+    height: 100%;
+}
