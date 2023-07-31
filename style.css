@@ -205,8 +205,9 @@ main {
 
 #Two {
     flex-grow: 1;
-    background-color: brown;
-
+    width: 415px;
+    background-color: black;
+    color: white;
 }
 
 #sideWrapper {
@@ -241,4 +242,48 @@ main {
 
 #sideTituloAmareloSpan {
     color: yellow;
+}
+
+
+#sideFlex {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 15px;
+}
+
+#sideBox1 {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.sideBox {
+    position: relative;
+    padding-top: 47px;
+}
+
+.logos {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 64px;
+    height: 64px;
+}
+
+#sideFlex h3 {
+    display: inline;
+    background-color: rgb(161, 161, 12);
+    color: black;
+}
+
+#sideBoxOne {
+    width: 100%;
+}
+
+
+
+
+#sideBox2 {
+    flex-grow: 1;
+    width: 50%;
 }
